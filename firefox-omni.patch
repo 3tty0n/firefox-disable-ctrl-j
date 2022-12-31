@@ -1,0 +1,11 @@
+--- firefox-omni-orig/chrome/browser/content/browser/browser.xhtml	2010-01-01 00:00:00.000000000 +0900
++++ firefox-omni/chrome/browser/content/browser/browser.xhtml	2022-12-31 16:36:56.202129964 +0900
+@@ -280,7 +280,7 @@
+     <key id="key_search" data-l10n-id="search-focus-shortcut" command="Tools:Search" modifiers="accel"/>
+     <key id="key_search2"
+          data-l10n-id="search-focus-shortcut-alt"
+-         modifiers="accel"
++         modifiers="accel,alt"
+          command="Tools:Search"/>
+     <key id="key_openDownloads"
+          data-l10n-id="downloads-shortcut"
